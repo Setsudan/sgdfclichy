@@ -10,7 +10,7 @@ function Home() {
                         <h2>Je suis Parents</h2>
                     </div>
                 </a>
-                <a href="/Scouts">
+                <a href="/Scouts" className="disabled">
                     <div className="Scouts Right">
                         <h2>Je suis Scouts</h2>
                     </div>
