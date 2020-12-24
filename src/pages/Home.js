@@ -5,14 +5,14 @@ function Home() {
     return (
         <div className="Landing">
             <div id="nav">
-                <a href="/Parents">
+                <a href="/Choombas">
                     <div className="Parents Left">
-                        <h2>Je suis Parents</h2>
+                        <h2>Je n'ai jamais fait Scouts</h2>
                     </div>
                 </a>
-                <a href="/Scouts" className="disabled">
+                <a href="/Scouts">
                     <div className="Scouts Right">
-                        <h2>Je suis Scouts</h2>
+                        <h2>J'ai déjà été Scouts</h2>
                     </div>
                 </a>
             </div>

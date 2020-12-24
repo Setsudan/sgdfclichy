@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import '../styles/pages/Parents/Home.css';
-import Age from './components/Parents/age';
+import Age from '../components/Parents/age';
+import Actv from '../components/Parents/activite';
+import Logo from '../components/img/SGDF-Logo.png';
+import Footer from '../components/footer';
 function Parents() {
     const [navBar, setNavBar] = useState(false);
 
@@ -16,7 +19,7 @@ function Parents() {
     return (
         <div className="Parents-Home">
             <nav className={navBar ? 'top active' : 'top'} id="navigation">
-                <img src="https://scoutisme.net/wp-content/uploads/sites/571/2019/05/SGDF_logo_RVB_horizontal.png" alt="Scouts et Guides de France" className="logo" />
+                <a href="/"><img src={Logo} alt="Scouts et Guides de France" className="logo" /></a>
                 <span className="nav-spacer"></span>
                 <ul className="nav-links">
                     <li><a href="/">Tranches d'âges</a></li>
@@ -26,6 +29,8 @@ function Parents() {
                 <a href="/" className="contact">Contactez-Nous</a>
             </nav>
             <Age />
+            <Actv />
+            <Footer />
         </div>
     );
 }

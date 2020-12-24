@@ -1,14 +1,20 @@
-@import './Nav.css';
+@import '../Nav.css';
 .all-ages {
-    background: url('https://images.unsplash.com/photo-1508089101008-504c11e5d606?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    background: url('https://images.unsplash.com/photo-1511895426328-dc8714191300?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+}
+
+.Activites {
+    background: url('https://images.unsplash.com/photo-1525740353756-92f4fbde1625?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
 }
 
 .part {
     display: grid;
     grid-gap: 2vh 2vw;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 25vw);
+    grid-template-rows: repeat(2, 25vw);
     transition: 600ms ease-in-out;
+    text-overflow: clip;
+    text-align: left;
 }
 
 .part .section {
