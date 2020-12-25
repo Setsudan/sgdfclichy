@@ -7,12 +7,30 @@
     }
 }
 
+.fadeIn {
+    animation: fadeIn 2.5s;
+}
+
 @keyframes LeftIn {
     from {
         opacity: 0;
-        transform: trans;
+        transform: translateX(-10vw);
     }
     to {
         opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.LeftIn {
+    animation: LeftIn 3s;
+}
+
+@keyframes ZoomIn {
+    from {
+        transform: scale(5);
+    }
+    to {
+        transform: scale(1);
     }
 }
