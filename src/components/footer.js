@@ -1,4 +1,4 @@
-import LogoW from './img/White-SGDF_logo_RVB_horizontal.png';
+import LogoW from './img/White-Logo.png';
 function Footer() {
     return (
         <div className="footer">

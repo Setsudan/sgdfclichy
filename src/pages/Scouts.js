@@ -18,12 +18,13 @@ function Scouts() {
             <nav className={navBar ? 'top active' : 'top'} id="navigation">
                 <a href="/"><img src={Logo} alt="Scouts et Guides de France" className="logo" /></a>
                 <span className="nav-spacer"></span>
-                <ul className="nav-links">
+                {/* <ul className="nav-links">
                     <li><a href="/">Scouts Guides</a></li>
                     <li><a href="/">Pio-Ca</a></li>
                     <li><a href="/">Compas</a></li>
                     <li><a href="/">Violets</a></li>
-                </ul>
+                </ul> */}
+                <h3>On arrive bientôt !</h3>
                 <a href="/" className="contact">Contactez-Nous</a>
             </nav>
         </div>

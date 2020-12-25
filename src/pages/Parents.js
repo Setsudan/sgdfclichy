@@ -26,7 +26,7 @@ function Parents() {
                     <li><a href="/">L'esprit Scouts</a></li>
                     <li><a href="/">Activité</a></li>
                 </ul>
-                <a href="/" className="contact">Contactez-Nous</a>
+                <a href="/Contact" className="contact">Contactez-Nous</a>
             </nav>
             <Age />
             <Actv />
