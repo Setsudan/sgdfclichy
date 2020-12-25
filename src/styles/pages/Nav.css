@@ -1,3 +1,9 @@
+ @media only screen and (max-width:900px) {
+     #navigation {
+         display: none;
+     }
+ }
+ 
  .logo {
      height: 10vh;
      width: 10vw;
@@ -26,7 +32,7 @@
  }
  
  .contact {
-     background-color: rgb(25, 25, 83);
+     background-color: var(--SGDF);
      grid-column: 4;
      border-radius: 23px;
      align-self: center;

@@ -3,11 +3,11 @@ import '../styles/pages/Landing.css'
 
 function Home() {
     return (
-        <div className="Landing">
+        <div className="Landing fadeIn">
             <div id="nav">
                 <a href="/Choombas">
                     <div className="Parents Left">
-                        <h2>Je n'ai jamais fait Scouts</h2>
+                        <h2>Je n'ai jamais été Scouts</h2>
                     </div>
                 </a>
                 <a href="/Scouts">
