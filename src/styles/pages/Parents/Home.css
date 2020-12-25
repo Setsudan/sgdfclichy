@@ -1,8 +1,4 @@
         @import '../Nav.css';
-        Body {
-            background-color: var(--SGDF);
-        }
-        
         @media only screen and (max-width: 900px) {
             .part {
                 display: flex;
