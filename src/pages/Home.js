@@ -5,6 +5,7 @@ function Home() {
     return (
         <div className="Landing fadeIn">
             <div id="nav">
+                {/* sera modifier plus tard */}
                 <a href="/Choombas">
                     <div className="Parents Left">
                         <h2>Je n'ai jamais été Scouts</h2>

@@ -10,7 +10,7 @@ function Contact() {
                 <a href="mailto:" className="mail"><i class="far fa-envelope"></i>Mail</a>
                 <a href="tel:" className="phone"><i class="fas fa-phone-alt"></i>Téléphone</a>
             </div>
-            <h3>Besoin d'un dépannage ?*</h3>
+            <h3 className="help">Besoin d'un dépannage ?*</h3>
             <div className="compas block paragraph contact-compas">
                 <h2>Compas</h2>
                 <a href="mailto:" className="mail"><i class="far fa-envelope"></i>Mail</a>
@@ -21,6 +21,26 @@ function Contact() {
                 <h2>Rouges</h2>
                 <a href="mailto:" className="mail"><i class="far fa-envelope"></i>Mail</a>
                 <a href="tel:" className="phone"><i class="fas fa-phone-alt"></i>Téléphone</a>
+            </div>
+            <div className="infos">
+                <h2>Les services que nous proposons</h2>
+                <ul>
+                    <li>
+                        <h3 className="Baby">Baby-sitting<i class="fas fa-baby-carriage"></i></h3>
+                    </li>
+                    <li>
+                        <h3 className="Move">Déménagement<i class="fas fa-box-open"></i></h3>
+                    </li>
+                    <li>
+                        <h3 className="Cake">Animation<i class="fas fa-birthday-cake"></i></h3>
+                    </li>
+                    <li>
+                        <h3>Brocante</h3>
+                    </li>
+                    <li>
+                        <h3>Et bien d'autres</h3>
+                    </li>
+                </ul>
             </div>
         </div>
     )

@@ -12,7 +12,8 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/Scouts" component={Scouts} />
-          <Route path="/Choombas" component={Parents} />
+          {/*           à modifier
+ */}          <Route path="/Choombas" component={Parents} />
           <Route path="/Contact" component={Contact} />
         </Switch>
       </div>
