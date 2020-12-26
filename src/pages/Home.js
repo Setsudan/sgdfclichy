@@ -3,7 +3,7 @@ import '../styles/pages/Landing.css'
 
 function Home() {
     return (
-        <div className="Landing fadeIn">
+        <div className="Landing">
             <div id="nav">
                 {/* sera modifier plus tard */}
                 <a href="/Choombas">

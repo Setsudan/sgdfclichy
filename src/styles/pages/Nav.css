@@ -1,72 +1,73 @@
  @media only screen and (max-width:900px) {
-     #navigation {
+     #desktop-nav {
+         display: none;
+     }
+     #phone-nav {
          display: none;
      }
  }
  
- .logo {
-     height: 10vh;
-     width: 10vw;
-     grid-column: 1;
-     align-self: center;
- }
- 
- .top {
-     display: grid;
-     grid-template-columns: 10vw 20vw 50vw 10vw;
-     position: sticky;
-     text-align: center;
-     top: 0;
-     right: 0;
- }
- 
- .active {
-     width: 100vw;
-     left: 0;
-     top: 0;
-     right: 0;
-     transition: 600ms ease-in-out;
-     background: white;
-     transform: translateX(-2vw);
-     border-bottom-left-radius: 0;
- }
- 
- .contact {
-     background-color: var(--SGDF);
-     grid-column: 4;
-     border-radius: 23px;
-     align-self: center;
-     color: white;
-     font-size: 1.25rem;
-     font-weight: 600;
-     padding: 1vh 1vw;
-     transition: 600ms ease-in-out;
- }
- 
- .contact:hover {
-     transition: 300ms ease-in-out;
-     background-color: var(--farfa);
- }
- 
- .nav-links {
-     grid-column: 3;
-     display: flex;
-     margin: 1vh 2vw;
- }
- 
- .nav-spacer {
-     grid-column: 2;
-     align-self: center;
- }
- 
- .nav-links li {
-     margin: 1vh 2vw;
-     padding: 2vh;
-     align-self: center;
- }
- 
- .nav-links a {
-     color: black;
-     font-size: 1.25rem;
-     font-weight: 600;
+ @media only screen and (min-width:900px) {
+     #phone-nav {
+         display: none;
+     }
+     .Nav .logo {
+         height: 10vh;
+         width: 10vw;
+         grid-column: 1;
+         align-self: center;
+     }
+     .Nav .top {
+         display: grid;
+         grid-template-columns: 10vw 20vw 50vw 10vw;
+         position: sticky;
+         text-align: center;
+         top: 0;
+         right: 0;
+     }
+     .Nav .active {
+         width: 100vw;
+         left: 0;
+         top: 0;
+         right: 0;
+         transition: 600ms ease-in-out;
+         background: white;
+         transform: translateX(-2vw);
+         border-bottom-left-radius: 0;
+     }
+     .Nav .contact {
+         background-color: var(--SGDF);
+         grid-column: 4;
+         border-radius: 23px;
+         align-self: center;
+         color: white;
+         font-size: 1.25rem;
+         font-weight: 600;
+         padding: 1vh 1vw;
+         transition: 600ms ease-in-out;
+     }
+     .Nav .contact:hover {
+         transition: 300ms ease-in-out;
+         background-color: var(--farfa);
+     }
+     .Nav .nav-links {
+         grid-column: 3;
+         display: flex;
+         margin: 1vh 2vw;
+     }
+     .Nav .nav-spacer {
+         grid-column: 2;
+         align-self: center;
+     }
+     .nav-links li {
+         margin: 1vh 2vw;
+         padding: 2vh;
+         align-self: center;
+         cursor: pointer;
+     }
+     .nav-links a {
+         color: black;
+         font-size: 1.25rem;
+         font-weight: 600;
+     }
  }

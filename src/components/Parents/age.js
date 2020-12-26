@@ -3,7 +3,7 @@ function Age() {
 
     return (
         <div className="Parents-Body LeftIn">
-            <div className="banner all-ages">
+            <div className="banner all-ages" id="all-ages">
                 <h1>Les Tranches D'Ages</h1>
             </div>
             <div className="block">
